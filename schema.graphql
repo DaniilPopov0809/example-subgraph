@@ -1,0 +1,8 @@
+type Sync @entity(immutable: true) {
+  id: Bytes!
+  reserve0: BigInt! # uint112
+  reserve1: BigInt! # uint112
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
